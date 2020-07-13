@@ -1,7 +1,7 @@
 import PyPDF2
 import sys
 
-inputs = sys.argv[1:]  #all the arguments after 1 in a list
+inputs = sys.argv[1:]  #all the arguments after 1 in a list test git
 
 def pdf_combiner(pdf_list):
 	merger = PyPDF2.PdfFileMerger()
